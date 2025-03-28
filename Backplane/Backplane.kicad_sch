@@ -107,6 +107,128 @@
 			)
 		)
 	)
+	(sheet
+		(at 200.66 36.83)
+		(size 41.91 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "65ccebd6-4acd-4ab6-b255-e2115df42baa")
+		(property "Sheetname" "BatMax - Female"
+			(at 200.66 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BatMax - Female.kicad_sch"
+			(at 200.66 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3v3" input
+			(at 200.66 43.18 180)
+			(uuid "bd7b9ba8-024e-48f6-8b77-4d2913e146b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3GND" input
+			(at 200.66 44.45 180)
+			(uuid "e300b71b-2471-4840-ac83-46fc5fa7f031")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B+" input
+			(at 200.66 48.26 180)
+			(uuid "55a1380d-543e-4db5-b8da-62f571cfad1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B-" input
+			(at 200.66 52.07 180)
+			(uuid "de7171cd-ffdc-42ce-abba-964fa8dbbf53")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EEPROM_WC" input
+			(at 242.57 44.45 0)
+			(uuid "5cdf2599-07d9-4b27-b2ce-be52be32e72c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 242.57 46.99 0)
+			(uuid "83a80d45-c813-4765-bae7-619a3db21c23")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" input
+			(at 242.57 49.53 0)
+			(uuid "c3d2a72d-ab27-4651-aece-84b497b0dcff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TEMP" output
+			(at 242.57 52.07 0)
+			(uuid "d6773602-4cbf-488b-b7a8-91dc8e682776")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Backplane"
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
