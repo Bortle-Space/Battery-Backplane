@@ -39,6 +39,66 @@
 				(justify left top)
 			)
 		)
+		(pin "LOAD_A_CTRL" output
+			(at 105.41 62.23 180)
+			(uuid "801840d0-b18c-4182-bcfe-fd8de0ea5665")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LOAD_A_GND" input
+			(at 105.41 64.77 180)
+			(uuid "24f07f79-ce64-4b0a-a475-36a943d78dbb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LOAD_B_CTRL" output
+			(at 105.41 71.12 180)
+			(uuid "d61648a4-288f-4512-a458-40aa7b8c92d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LOAD_B_GND" input
+			(at 105.41 74.93 180)
+			(uuid "feca551d-ada1-419a-8498-b504ec7294ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" output
+			(at 105.41 78.74 180)
+			(uuid "50706071-427d-436a-b025-30cf8769b6fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" output
+			(at 105.41 81.28 180)
+			(uuid "5691234e-942b-4c8a-95a9-0965a2615724")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Backplane"
 				(path "/4763d09e-4fb7-455a-b785-38411d748b6f"
