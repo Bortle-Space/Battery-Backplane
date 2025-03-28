@@ -413,12 +413,16 @@
       "Root"
     ],
     [
-      "61e3ab38-1121-4191-880f-3ddec1b1bcd6",
+      "ddf14ba8-4be3-44a6-82db-a61e1c077819",
       "Current Control"
     ],
     [
-      "65ccebd6-4acd-4ab6-b255-e2115df42baa",
+      "d619fa52-f488-4117-86b4-e605a2e4fb70",
       "BatMax - Female"
+    ],
+    [
+      "a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b",
+      "BatPair"
     ]
   ],
   "text_variables": {}

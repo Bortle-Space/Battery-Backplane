@@ -1,0 +1,282 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f101815f-567a-44a1-bd83-d81085652ae5")
+	(paper "A")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 90.17 82.55) (xy 107.95 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "166eb73a-ba1a-4bda-ac71-4aa547765f28")
+	)
+	(wire
+		(pts
+			(xy 72.39 52.07) (xy 90.17 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "167cc314-2478-466e-b474-196b0d7e2495")
+	)
+	(wire
+		(pts
+			(xy 90.17 52.07) (xy 90.17 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5f861dd-ad79-427e-9e60-9406d42e6aa9")
+	)
+	(sheet
+		(at 25.4 25.4)
+		(size 46.99 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d619fa52-f488-4117-86b4-e605a2e4fb70")
+		(property "Sheetname" "BatMax - Female"
+			(at 25.4 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BatMax - Female.kicad_sch"
+			(at 25.4 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3v3" input
+			(at 25.4 31.75 180)
+			(uuid "90ccdfba-11f3-4cbc-8760-a895697606f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3GND" input
+			(at 25.4 34.29 180)
+			(uuid "134a6d8d-a2c6-4d9e-941b-8841619f00b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B+" input
+			(at 72.39 46.99 0)
+			(uuid "2939c966-2fe1-4dc4-8343-256eb5c71d28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B-" input
+			(at 72.39 52.07 0)
+			(uuid "c3f97961-3651-400b-a9b6-9dbafef95137")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EEPROM_WC" input
+			(at 72.39 33.02 0)
+			(uuid "078c45a0-1dd4-41a2-b33d-2fecef2ff790")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 72.39 35.56 0)
+			(uuid "892f08f8-dea1-450c-9041-2af2c867b4fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" input
+			(at 72.39 38.1 0)
+			(uuid "4a7c8c16-42c8-4240-98d0-510e5320b577")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TEMP" output
+			(at 25.4 50.8 180)
+			(uuid "a61b4d4a-f9d1-4d0d-91b5-ae5d43fcea03")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Backplane"
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 66.04)
+		(size 48.26 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ddf14ba8-4be3-44a6-82db-a61e1c077819")
+		(property "Sheetname" "Current Control"
+			(at 107.95 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Current Control.kicad_sch"
+			(at 107.95 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LOAD_A_CTRL" output
+			(at 143.51 100.33 270)
+			(uuid "6c5b0511-f30e-4d36-bd32-800b80372fe0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LOAD_A_GND" input
+			(at 107.95 82.55 180)
+			(uuid "bd4ed441-d9b8-4e97-a475-7a02382c6b1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LOAD_B_CTRL" output
+			(at 139.7 100.33 270)
+			(uuid "1580ede9-fdfb-41de-9bd2-cb39ab095276")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LOAD_B_GND" input
+			(at 156.21 82.55 0)
+			(uuid "7ad9806e-58b7-46e2-8636-929c253e9bbc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" output
+			(at 107.95 95.25 180)
+			(uuid "150bf2f5-736b-4cde-ba0e-99d3b5eb4404")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" output
+			(at 107.95 97.79 180)
+			(uuid "80eac821-3c9f-489e-a7d0-a9ccdde27cc1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LOAD_A_SNS" input
+			(at 107.95 86.36 180)
+			(uuid "965fb276-208f-4c3c-8510-295dd9f9af21")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LOAD_B_SNS" input
+			(at 156.21 86.36 0)
+			(uuid "0c7d87d2-b009-47a2-b645-a8526dbe8003")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Backplane"
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b"
+					(page "2")
+				)
+			)
+		)
+	)
+)
