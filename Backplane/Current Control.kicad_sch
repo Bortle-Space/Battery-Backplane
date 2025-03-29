@@ -2596,6 +2596,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 147.32) (xy 151.13 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e288a1-e113-46e9-9dc9-0994c00e7e3f")
+	)
+	(wire
+		(pts
 			(xy 55.88 134.62) (xy 146.05 134.62)
 		)
 		(stroke
@@ -2726,7 +2736,7 @@
 	)
 	(hierarchical_label "LOAD_B_GND"
 		(shape input)
-		(at 151.13 147.32 0)
+		(at 154.94 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2736,7 +2746,7 @@
 		(uuid "040ba795-f212-4fba-9242-7172073b10dd")
 	)
 	(hierarchical_label "LOAD_B_SNS"
-		(shape input)
+		(shape output)
 		(at 87.63 137.16 180)
 		(effects
 			(font
@@ -2746,8 +2756,8 @@
 		)
 		(uuid "234d55d8-d026-40d5-959d-fb1f24004165")
 	)
-	(hierarchical_label "SDA"
-		(shape output)
+	(hierarchical_label "BAT_A_CC_SDA"
+		(shape bidirectional)
 		(at 116.84 52.07 0)
 		(effects
 			(font
@@ -2758,7 +2768,7 @@
 		(uuid "4b4be358-4ee1-4457-91e2-794c7797c6a5")
 	)
 	(hierarchical_label "LOAD_A_SNS"
-		(shape input)
+		(shape output)
 		(at 88.9 88.9 180)
 		(effects
 			(font
@@ -2769,7 +2779,7 @@
 		(uuid "6179ffd6-3f63-41f0-96fe-be9da5ff208b")
 	)
 	(hierarchical_label "LOAD_B_CTRL"
-		(shape output)
+		(shape input)
 		(at 96.52 115.57 0)
 		(effects
 			(font
@@ -2780,7 +2790,7 @@
 		(uuid "6b4375c1-f527-46ec-83ae-1bb35d6d1a0f")
 	)
 	(hierarchical_label "LOAD_A_CTRL"
-		(shape output)
+		(shape input)
 		(at 96.52 110.49 0)
 		(effects
 			(font
@@ -2790,8 +2800,8 @@
 		)
 		(uuid "b2b1d29b-ce00-496f-af9c-8777cb8f058b")
 	)
-	(hierarchical_label "SCL"
-		(shape output)
+	(hierarchical_label "BAT_A_CC_SCL"
+		(shape bidirectional)
 		(at 116.84 54.61 0)
 		(effects
 			(font
@@ -2801,8 +2811,8 @@
 		)
 		(uuid "b88ba572-4d27-4e7a-9b2f-ddbef757a054")
 	)
-	(hierarchical_label "SCL"
-		(shape output)
+	(hierarchical_label "BAT_B_CC_SCL"
+		(shape bidirectional)
 		(at 120.65 171.45 0)
 		(effects
 			(font
@@ -2812,8 +2822,8 @@
 		)
 		(uuid "ce832831-e932-4690-88fe-5473ac16fe72")
 	)
-	(hierarchical_label "SDA"
-		(shape output)
+	(hierarchical_label "BAT_B_CC_SDA"
+		(shape bidirectional)
 		(at 120.65 173.99 0)
 		(effects
 			(font
@@ -4228,6 +4238,77 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 116.84 57.15 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56c79887-8daf-481b-8510-322edbdc2a8e")
+		(property "Reference" "#PWR024"
+			(at 123.19 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 57.1501 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35b1a805-fb94-4d87-a351-dbf14fdf6fde")
+		)
+		(instances
+			(project "Backplane"
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR024")
+					(unit 1)
+				)
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 231.14 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4894,7 +4975,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7044214c-73bc-40e9-a785-a79b00bd051a")
 		(property "Reference" "#PWR026"
 			(at 132.08 53.34 0)
@@ -4906,7 +4986,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 54.61 0)
+			(at 135.128 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5740,7 +5820,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bbea5c4a-955f-46a3-a3ec-e6fd54154325")
 		(property "Reference" "#PWR019"
 			(at 130.81 172.72 0)
@@ -5752,7 +5831,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 171.45 0)
+			(at 128.27 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6247,77 +6326,6 @@
 				)
 				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
 					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 116.84 57.15 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d3e14205-e103-45f3-b7ba-886cedfb52c7")
-		(property "Reference" "#PWR024"
-			(at 113.03 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 120.65 57.1501 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 116.84 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fbb5a20e-5aec-4b6e-b869-0ae8d9ec50a4")
-		)
-		(instances
-			(project "Backplane"
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b/ddf14ba8-4be3-44a6-82db-a61e1c077819"
-					(reference "#PWR024")
-					(unit 1)
-				)
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82/ddf14ba8-4be3-44a6-82db-a61e1c077819"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
