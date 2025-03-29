@@ -357,6 +357,18 @@
 		)
 	)
 	(junction
+		(at 115.57 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f001a7d-0822-4007-8ab2-276d119f1586")
+	)
+	(junction
+		(at 175.26 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "986657a4-a9e9-4a8b-97dd-10f7865bfc85")
+	)
+	(junction
 		(at 175.26 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -377,6 +389,16 @@
 			(type default)
 		)
 		(uuid "0be0121b-5c57-4e0b-86c3-2b041277cb4b")
+	)
+	(wire
+		(pts
+			(xy 119.38 113.03) (xy 115.57 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e600ac5-a764-4efb-8fc7-f370f007fc8b")
 	)
 	(wire
 		(pts
@@ -440,23 +462,33 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 66.04) (xy 160.02 95.25)
+			(xy 175.26 111.76) (xy 175.26 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "33a11a4e-10d1-4206-ae2c-e9f5f91ff232")
+		(uuid "49ea6055-f58e-478c-b692-d5f13b279542")
 	)
 	(wire
 		(pts
-			(xy 115.57 114.3) (xy 115.57 111.76)
+			(xy 115.57 114.3) (xy 115.57 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "63068e8a-55d3-4365-b9cd-eae53c70e255")
+	)
+	(wire
+		(pts
+			(xy 166.37 111.76) (xy 175.26 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66659a05-6155-462b-974c-fcaa68ef7def")
 	)
 	(wire
 		(pts
@@ -560,16 +592,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 95.25) (xy 175.26 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "991ed4f7-07c3-4a0c-a6d7-77b455117ad8")
-	)
-	(wire
-		(pts
 			(xy 175.26 138.43) (xy 170.18 138.43)
 		)
 		(stroke
@@ -587,16 +609,6 @@
 			(type default)
 		)
 		(uuid "9f6b7dbb-3adb-4368-b7a4-fd01438f1e68")
-	)
-	(wire
-		(pts
-			(xy 115.57 62.23) (xy 115.57 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a20ea80c-77c4-4853-aafb-26a038da3158")
 	)
 	(wire
 		(pts
@@ -620,7 +632,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 66.04) (xy 160.02 66.04)
+			(xy 170.18 95.25) (xy 175.26 95.25)
 		)
 		(stroke
 			(width 0)
@@ -660,7 +672,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 113.03) (xy 175.26 110.49)
+			(xy 175.26 113.03) (xy 175.26 111.76)
 		)
 		(stroke
 			(width 0)
@@ -670,7 +682,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 62.23) (xy 115.57 62.23)
+			(xy 118.11 95.25) (xy 115.57 95.25)
 		)
 		(stroke
 			(width 0)
@@ -707,6 +719,16 @@
 			(type default)
 		)
 		(uuid "f916be90-86bd-4efa-80f0-e15d4bb0981a")
+	)
+	(wire
+		(pts
+			(xy 115.57 113.03) (xy 115.57 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc510009-d558-410f-b7f4-96a4b186b65d")
 	)
 	(wire
 		(pts
@@ -806,8 +828,8 @@
 		(uuid "66ad37f0-3886-4594-b5ef-00f4598ce85b")
 	)
 	(hierarchical_label "BAT_A+"
-		(shape input)
-		(at 124.46 62.23 0)
+		(shape output)
+		(at 118.11 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -828,8 +850,8 @@
 		(uuid "6d9f6828-35b7-41f7-ba29-f4307c5ebc45")
 	)
 	(hierarchical_label "BAT_A_VLT"
-		(shape input)
-		(at 115.57 113.03 0)
+		(shape output)
+		(at 119.38 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -861,7 +883,7 @@
 		(uuid "91912c55-39eb-4243-942a-60c7d0286adc")
 	)
 	(hierarchical_label "BAT_A_CC_SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 119.38 143.51 180)
 		(effects
 			(font
@@ -872,8 +894,8 @@
 		(uuid "93f30892-8740-476e-aa5e-ec0501bf10ec")
 	)
 	(hierarchical_label "BAT_B+"
-		(shape input)
-		(at 158.75 66.04 180)
+		(shape output)
+		(at 170.18 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -883,7 +905,7 @@
 		(uuid "a3c51c02-8d0c-42e1-a061-a869aac0efa3")
 	)
 	(hierarchical_label "BAT_A_CC_SCL"
-		(shape input)
+		(shape bidirectional)
 		(at 119.38 146.05 180)
 		(effects
 			(font
@@ -916,7 +938,7 @@
 		(uuid "bdbe0f4a-771e-411b-9e68-4c685875a884")
 	)
 	(hierarchical_label "BAT_A_CUR"
-		(shape input)
+		(shape output)
 		(at 119.38 134.62 180)
 		(effects
 			(font
@@ -938,8 +960,8 @@
 		(uuid "c87bdb10-1d40-41e6-a165-4a44bca40ce4")
 	)
 	(hierarchical_label "BAT_B_VLT"
-		(shape input)
-		(at 175.26 111.76 180)
+		(shape output)
+		(at 166.37 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2090,16 +2112,6 @@
 				(justify left top)
 			)
 		)
-		(pin "LOAD_A_CTRL" output
-			(at 121.92 138.43 180)
-			(uuid "9bc9cbd9-e95f-487d-819c-2e88d0dfa015")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "LOAD_A_GND" input
 			(at 121.92 130.81 180)
 			(uuid "1b603a91-c18d-4677-8ae7-b9d168990770")
@@ -2108,16 +2120,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "LOAD_B_CTRL" output
-			(at 170.18 138.43 0)
-			(uuid "99959a9c-8fa9-4dd0-a3a6-119d7ffbea88")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "LOAD_B_GND" input
@@ -2130,19 +2132,9 @@
 				(justify right)
 			)
 		)
-		(pin "LOAD_A_SNS" input
-			(at 121.92 134.62 180)
-			(uuid "ca6dc6b3-ec44-4742-93be-46b15d90ee9f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "LOAD_B_SNS" input
+		(pin "LOAD_B_SNS" output
 			(at 170.18 134.62 0)
-			(uuid "aec0c258-fa68-4228-85c4-2ad6efac1e68")
+			(uuid "dea4dc4d-038e-4b9a-8bea-632d91a00f1d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2150,9 +2142,29 @@
 				(justify right)
 			)
 		)
-		(pin "BAT_A_CC_SCL" output
+		(pin "LOAD_B_CTRL" input
+			(at 170.18 138.43 0)
+			(uuid "27e1f029-7122-41df-a436-3c7c9d5a5d90")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LOAD_A_CTRL" input
+			(at 121.92 138.43 180)
+			(uuid "9293f3ed-a486-4144-8d56-ea5bbce77d99")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BAT_A_CC_SCL" bidirectional
 			(at 121.92 146.05 180)
-			(uuid "a586338e-a880-40bc-ad26-2049cd3c9705")
+			(uuid "906e3583-b3bf-4db7-8301-17fa944cefe9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2160,9 +2172,9 @@
 				(justify left)
 			)
 		)
-		(pin "BAT_A_CC_SDA" output
+		(pin "BAT_B_CC_SCL" bidirectional
 			(at 121.92 143.51 180)
-			(uuid "d4c5e850-89e5-4a0d-80bb-17ee133f082b")
+			(uuid "744b4bc8-7ff5-45cd-8287-aa5e0d3ad422")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2170,9 +2182,9 @@
 				(justify left)
 			)
 		)
-		(pin "BAT_B_CC_SCL" output
-			(at 170.18 147.32 0)
-			(uuid "e697e4d3-3c4a-41c3-906f-854fd7c01207")
+		(pin "BAT_A_CC_SDA" bidirectional
+			(at 170.18 144.78 0)
+			(uuid "5f116306-e196-4b80-8ae4-d9b6dbc9231e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2180,9 +2192,19 @@
 				(justify right)
 			)
 		)
-		(pin "BAT_B_CC_SDA" output
-			(at 170.18 144.78 0)
-			(uuid "9915042b-97ee-4fba-8582-d600f175f5b7")
+		(pin "LOAD_A_SNS" output
+			(at 121.92 134.62 180)
+			(uuid "d71ce263-548e-4ff0-80d5-2fe9c7e98cce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BAT_B_CC_SDA" bidirectional
+			(at 170.18 147.32 0)
+			(uuid "4ff89577-7dc2-4eba-9c73-a3ca70e8804f")
 			(effects
 				(font
 					(size 1.27 1.27)
