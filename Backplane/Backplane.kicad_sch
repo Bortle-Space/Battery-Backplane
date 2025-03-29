@@ -6,8 +6,8 @@
 	(paper "A")
 	(lib_symbols)
 	(sheet
-		(at 30.48 24.13)
-		(size 67.31 26.67)
+		(at 87.63 59.69)
+		(size 36.83 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b")
 		(property "Sheetname" "BatPair"
-			(at 30.48 23.4184 0)
+			(at 87.63 58.9784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,12 +31,172 @@
 			)
 		)
 		(property "Sheetfile" "BatPair.kicad_sch"
-			(at 30.48 51.3846 0)
+			(at 87.63 90.7546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "BAT_A+" input
+			(at 87.63 62.23 180)
+			(uuid "e1217101-0f8d-4315-a42d-c8fd53e0974e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BAT_A_SCL" input
+			(at 87.63 72.39 180)
+			(uuid "2167d426-77a2-4d88-a2e0-3cc253f1fa14")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BAT_A_SDA" input
+			(at 87.63 69.85 180)
+			(uuid "abadb7c8-3069-47a8-8d72-8d8b7a45c094")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BAT_A_SNS" input
+			(at 124.46 69.85 0)
+			(uuid "7fb986f4-c09e-4d9f-ab67-8ab2394d492f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAT_A_TMP" input
+			(at 124.46 62.23 0)
+			(uuid "a116c933-af31-41e9-9561-549abeac4862")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAT_A_WC" input
+			(at 124.46 77.47 0)
+			(uuid "dad8e024-1c23-4ae4-93ed-0a300fcef1ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAT_B_CHARGE" input
+			(at 124.46 87.63 0)
+			(uuid "b24eafac-e78f-42b2-a927-0cf1ba73a4ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAT_B_SCL" input
+			(at 87.63 80.01 180)
+			(uuid "c02efe5f-e59c-417c-9bbe-2e38f4eead21")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BAT_B_SDA" input
+			(at 87.63 77.47 180)
+			(uuid "72993f81-63e9-4966-ad2e-87877f5b6007")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BAT_B_SNS" input
+			(at 124.46 72.39 0)
+			(uuid "7c15312d-1e63-4d99-a584-798759163fc9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAT_B_TMP" input
+			(at 124.46 64.77 0)
+			(uuid "4927826c-d3bd-47ab-af8d-075f46bec56f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAT_B_WC" input
+			(at 124.46 80.01 0)
+			(uuid "aaf2cca9-6b59-44cc-acad-40cb6ceb4e34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CC_SCL" input
+			(at 87.63 87.63 180)
+			(uuid "e9ed0ef3-4995-455d-8bdd-c487fad2b63e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CC_SDA" input
+			(at 87.63 85.09 180)
+			(uuid "65c2a4a7-1d1e-4d71-be02-3f62f946d77f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BAT_A_CHARGE" input
+			(at 124.46 85.09 0)
+			(uuid "febdd75f-afc4-41a1-93d0-57fe3273985e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAT_B+" input
+			(at 87.63 64.77 180)
+			(uuid "c3fb41a4-edad-4c1a-80cc-41a253eb19ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
