@@ -679,7 +679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d042ece8-ac73-4e84-afde-205832c6e74f")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR"
 			(at 17.78 41.91 0)
 			(effects
 				(font
@@ -725,12 +725,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "bac3aec6-7a9d-49cb-b3d9-956dc97d2968")
+			(uuid "a5a48b04-068e-4311-beb6-e7bd6ecd6bf1")
 		)
 		(instances
-			(project ""
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b"
-					(reference "#PWR05")
+			(project "Backplane"
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -792,12 +792,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "34eec13e-f516-4243-bb47-6cf322e80327")
+			(uuid "f3ff1c0d-37dc-4fde-a68e-ffb3e396a576")
 		)
 		(instances
 			(project "Backplane"
 				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b"
 					(reference "#PWR027")
+					(unit 1)
+				)
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -814,7 +818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e118f6d7-0c9d-4538-bb56-28c6d4e52b07")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR"
 			(at 27.94 34.29 0)
 			(effects
 				(font
@@ -860,12 +864,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "aa198a81-5754-4cf0-b614-39061eca5950")
+			(uuid "64d6a81d-9945-48a1-9088-542a4a4f753e")
 		)
 		(instances
-			(project ""
-				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b"
-					(reference "#PWR06")
+			(project "Backplane"
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -927,12 +931,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "93efdb95-d59a-445f-813c-5a90f70de967")
+			(uuid "e579d3de-ac78-498b-9cb7-d846c2271017")
 		)
 		(instances
 			(project "Backplane"
 				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b"
 					(reference "#PWR011")
+					(unit 1)
+				)
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -974,7 +982,7 @@
 		)
 		(pin "3v3" input
 			(at 229.87 34.29 0)
-			(uuid "e49fe3bd-ba97-412c-ae46-295fabee7e27")
+			(uuid "9f8614aa-bd63-4af7-9965-0bf5f9449a0c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -984,7 +992,7 @@
 		)
 		(pin "3V3GND" input
 			(at 229.87 41.91 0)
-			(uuid "956095dc-34e5-4e3d-ab2f-515445cbefcd")
+			(uuid "88b8e214-b25a-4e5b-9e7e-67b22669ee13")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -994,7 +1002,7 @@
 		)
 		(pin "B+" input
 			(at 182.88 46.99 180)
-			(uuid "185cec81-d76b-4044-8ba2-e8e91163e572")
+			(uuid "88d583c3-f00e-4f7d-8275-d02e6e0c775d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1004,7 +1012,7 @@
 		)
 		(pin "B-" input
 			(at 182.88 52.07 180)
-			(uuid "651c6580-f13b-447f-bc3a-c28b4e35508f")
+			(uuid "68ae13b0-c852-4528-85c7-c9eb73c6a521")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1014,7 +1022,7 @@
 		)
 		(pin "EEPROM_WC" input
 			(at 229.87 46.99 0)
-			(uuid "d5dfcd45-4e76-4ddb-8b59-7151bd2e4f64")
+			(uuid "ff1064c8-eeff-4642-ba41-9e00dcb8a176")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1024,7 +1032,7 @@
 		)
 		(pin "SCL" input
 			(at 182.88 35.56 180)
-			(uuid "5f5fe514-daa6-47e7-a68f-f0b37014be29")
+			(uuid "7c7bd864-6cfd-43b0-ba21-3cfec09ddf75")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1034,7 +1042,7 @@
 		)
 		(pin "SDA" input
 			(at 182.88 38.1 180)
-			(uuid "9f890265-adb1-488f-9143-e6db0897c332")
+			(uuid "a8f02cb7-3ec2-4b91-9bc4-f875ca30023a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1044,7 +1052,7 @@
 		)
 		(pin "TEMP" output
 			(at 229.87 38.1 0)
-			(uuid "7a167cd0-0aca-4f80-bb8a-e85de9daa1ad")
+			(uuid "023d219d-1e7f-4175-b659-7386a3dbcff1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1056,6 +1064,9 @@
 			(project "Backplane"
 				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b"
 					(page "5")
+				)
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82"
+					(page "7")
 				)
 			)
 		)
@@ -1096,7 +1107,7 @@
 		)
 		(pin "3v3" input
 			(at 25.4 34.29 180)
-			(uuid "90ccdfba-11f3-4cbc-8760-a895697606f9")
+			(uuid "655a5dbf-18df-439b-ad34-3d17a8cd7bee")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1106,7 +1117,7 @@
 		)
 		(pin "3V3GND" input
 			(at 25.4 41.91 180)
-			(uuid "134a6d8d-a2c6-4d9e-941b-8841619f00b4")
+			(uuid "effd5cab-fde6-4df1-a940-ddc4500b106b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1116,7 +1127,7 @@
 		)
 		(pin "B+" input
 			(at 72.39 46.99 0)
-			(uuid "2939c966-2fe1-4dc4-8343-256eb5c71d28")
+			(uuid "68e62a68-f198-4d68-9ba5-b6b3e2664ec2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1126,7 +1137,7 @@
 		)
 		(pin "B-" input
 			(at 72.39 52.07 0)
-			(uuid "c3f97961-3651-400b-a9b6-9dbafef95137")
+			(uuid "ba0fc853-25e4-459b-a51b-b29f618ece5d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1136,7 +1147,7 @@
 		)
 		(pin "EEPROM_WC" input
 			(at 25.4 46.99 180)
-			(uuid "078c45a0-1dd4-41a2-b33d-2fecef2ff790")
+			(uuid "2a4fe911-f44b-4d95-9630-bb188d7810cd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1146,7 +1157,7 @@
 		)
 		(pin "SCL" input
 			(at 72.39 35.56 0)
-			(uuid "892f08f8-dea1-450c-9041-2af2c867b4fb")
+			(uuid "19e7e07b-07b3-4b0f-ac5d-5f1ddf4f26e0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1156,7 +1167,7 @@
 		)
 		(pin "SDA" input
 			(at 72.39 38.1 0)
-			(uuid "4a7c8c16-42c8-4240-98d0-510e5320b577")
+			(uuid "569d6613-8f46-466f-8831-573c7b44433e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1166,7 +1177,7 @@
 		)
 		(pin "TEMP" output
 			(at 25.4 38.1 180)
-			(uuid "a61b4d4a-f9d1-4d0d-91b5-ae5d43fcea03")
+			(uuid "f3c68df3-a9d8-4a86-90f7-9c5c9c167787")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1178,6 +1189,9 @@
 			(project "Backplane"
 				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b"
 					(page "3")
+				)
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82"
+					(page "8")
 				)
 			)
 		)
@@ -1218,7 +1232,7 @@
 		)
 		(pin "LOAD_A_CTRL" output
 			(at 107.95 90.17 180)
-			(uuid "6c5b0511-f30e-4d36-bd32-800b80372fe0")
+			(uuid "9bc9cbd9-e95f-487d-819c-2e88d0dfa015")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1228,7 +1242,7 @@
 		)
 		(pin "LOAD_A_GND" input
 			(at 107.95 82.55 180)
-			(uuid "bd4ed441-d9b8-4e97-a475-7a02382c6b1e")
+			(uuid "1b603a91-c18d-4677-8ae7-b9d168990770")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1238,7 +1252,7 @@
 		)
 		(pin "LOAD_B_CTRL" output
 			(at 156.21 90.17 0)
-			(uuid "1580ede9-fdfb-41de-9bd2-cb39ab095276")
+			(uuid "99959a9c-8fa9-4dd0-a3a6-119d7ffbea88")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1248,7 +1262,7 @@
 		)
 		(pin "LOAD_B_GND" input
 			(at 156.21 82.55 0)
-			(uuid "7ad9806e-58b7-46e2-8636-929c253e9bbc")
+			(uuid "ef8e71e4-3e3f-4d00-b4ef-e08f4c0e66cf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1258,7 +1272,7 @@
 		)
 		(pin "SCL" output
 			(at 107.95 95.25 180)
-			(uuid "150bf2f5-736b-4cde-ba0e-99d3b5eb4404")
+			(uuid "b3dbd774-14c5-45e5-a354-8d575ed59064")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1268,7 +1282,7 @@
 		)
 		(pin "SDA" output
 			(at 107.95 97.79 180)
-			(uuid "80eac821-3c9f-489e-a7d0-a9ccdde27cc1")
+			(uuid "6aad9251-fb8b-49dc-9088-98eafc2a4916")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1278,7 +1292,7 @@
 		)
 		(pin "LOAD_A_SNS" input
 			(at 107.95 86.36 180)
-			(uuid "965fb276-208f-4c3c-8510-295dd9f9af21")
+			(uuid "ca6dc6b3-ec44-4742-93be-46b15d90ee9f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1288,7 +1302,7 @@
 		)
 		(pin "LOAD_B_SNS" input
 			(at 156.21 86.36 0)
-			(uuid "0c7d87d2-b009-47a2-b645-a8526dbe8003")
+			(uuid "aec0c258-fa68-4228-85c4-2ad6efac1e68")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1300,6 +1314,9 @@
 			(project "Backplane"
 				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/a3cef0d6-12d4-4e41-bc9d-bd0540a2ab3b"
 					(page "2")
+				)
+				(path "/4763d09e-4fb7-455a-b785-38411d748b6f/af45f37b-7841-4d0a-9a92-a045ec353c82"
+					(page "9")
 				)
 			)
 		)
